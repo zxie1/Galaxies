@@ -1,4 +1,11 @@
-Description goes here. Writing something. Really got to write something. Soon.
+GALAXIES:
+---------
+
+The puzzle game Galaxies is one of Simon Tatham's collection of GUI games. It is played on a rectangular grid of square cells. A number of "galactic centers" (also known as simply "centers"), displayed as small circles, are placed about the board. Each galactic center is either in the center of a cell, at the intersection of two grid lines and surrounded by four cells, or in the center of an edge between two cells. No centers appear on the outside edges of the puzzle board. The user who is solving the puzzle must place barriers along the edges of the board in order to divide the cells of the board into contiguous "galaxies" (also known as simply "regions"), where each galaxy must enclose exactly one galactic center. To successfully solve this puzzle, the user must make galaxies that cover all the cells without overlapping that also satisfy the following criteria:
+
+1. It must be possible to reach any cell in the galaxy from any other cell via a sequence of cells in the same galaxy that are only horizontally or vertically adjacent (not diagonally adjacent).
+2. The galactic center must be entirely enclosed in the galaxy.
+3. The galaxy must be symmetric around the galactic center: if the galactic center is at coordinates (x,y) and there is a cell in the galaxy at coordinates (x+dx,y+dy), then the cell at coordinates (x−dx,y−dy) must also be in the galaxy.
 
 CONTENTS:
 ---------
